@@ -1,0 +1,20 @@
+{
+  "name": "HanekawaBot",
+  "version": "0.3.1",
+  "description": "A music bot for Discord written in CoffeeScript. ",
+  "main": "index.js",
+  "repository": "https://github.com/CloudyyUw/HanekawaBot",
+  "author": "CloudyyUw",
+  "license": "Apache-2.0 License",
+  "private": false,
+  "dependencies": {
+    "@discordjs/opus": "^0.5.3",
+    "discord.js": "^12.5.3",
+    "distube": "^2.8.15",
+    "ffmpeg-static": "^4.4.0"
+  },
+  "devDependencies": {
+    "coffeescript": "^2.5.1",
+    "dotenv": "^10.0.0"
+  }
+}
