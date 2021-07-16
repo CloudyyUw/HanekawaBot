@@ -7,17 +7,20 @@
   "author": "CloudyyUw",
   "license": "Apache-2.0 License",
   "scripts": {
-    "dev": "coffee --output build --compile ./ && node build/index.js"
+    "dev": "nodemon build/index.js",
+    "build": "coffee --output build --compile ./"
   },
   "private": false,
   "dependencies": {
     "@discordjs/opus": "^0.5.3",
+    "cdhandler": "^1.4.11",
     "discord.js": "^12.5.3",
     "distube": "^2.8.15",
     "ffmpeg-static": "^4.4.0"
   },
   "devDependencies": {
     "coffeescript": "^2.5.1",
-    "dotenv": "^10.0.0"
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.12"
   }
 }
