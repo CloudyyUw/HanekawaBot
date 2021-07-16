@@ -6,6 +6,9 @@
   "repository": "https://github.com/CloudyyUw/HanekawaBot",
   "author": "CloudyyUw",
   "license": "Apache-2.0 License",
+  "scripts": {
+    "dev": "coffee --output build --compile ./ && node build/index.js"
+  },
   "private": false,
   "dependencies": {
     "@discordjs/opus": "^0.5.3",
