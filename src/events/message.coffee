@@ -19,6 +19,7 @@ class Message extends Event
 
     if not command
       message.channel.send "Unknown Command"
+      return
 
     await command.run @client, message, args
     return;
